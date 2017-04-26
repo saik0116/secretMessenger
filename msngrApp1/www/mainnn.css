@@ -1,0 +1,127 @@
+#title {
+    background-color: #444;
+    color: #FFF;
+    font-size: 1.5rem;
+/*    margin-top: 15px;*/
+    padding: 10px;
+}
+
+#form{
+/*    background-color: #444;*/
+    margin-top: 40px;
+}
+
+#content{
+/*    background-color: #444;*/
+}
+
+#ferd{
+/*    color: #56F1FF;*/
+    color: #A0FCFF;
+    margin-top: 5px;
+}
+
+#myheader {
+/*    text-align: center;*/
+/*    font-size: 60px;*/
+/*    color: royalblue;*/
+/*    margin-top: 40px;*/
+    
+}
+
+#myheader1 {
+/*    text-align: center;*/
+/*    font-size: 60px;*/
+/*    color: royalblue;*/
+    
+    
+}
+
+#user_name{
+/*    margin-top: 80px;*/
+    width: 70%;
+    margin-left: 15%;
+    
+}
+
+#theMessage{
+    padding-top: 10px;
+    font-size: 22px;
+    color: black;
+}
+
+#email{
+    width: 70%;
+    margin-left: 15%;
+}
+
+#user_nameR{
+/*    margin-top: 80px;*/
+/*    width: 70%;*/
+/*    margin-left: 15%;*/
+    
+}
+
+#emailR{
+/*    width: 70%;*/
+/*    margin-left: 15%;*/
+}
+
+#user{
+/*    font-size: 30px;*/
+/*    background-color: white;*/
+}
+#pass{
+/*    font-size: 30px;*/
+/*    background-color: white;*/
+}
+p{
+/*    color: white;*/
+/*    font-size: 20px*/
+}
+#login{ 
+/*    color: brown;*/
+/*    margin-top: 40px;*/
+    font-size: 2rem;
+/*    background-color:lightblue;*/
+    width: 70%;
+    margin-left: 15%;
+/*    color: #EEE;*/
+    
+}
+#register{
+    
+/*    color: lightblue;*/
+    font-size: 2rem;
+/*    margin-top: 20px;*/
+/*    background-color: brown;*/
+    width: 70%;
+    margin-left: 15%;
+/*    color: #EEE;*/
+}
+
+#delete{
+    font-size: 2rem;
+    width: 70%;
+    margin-left: 15%;
+}
+
+#send{
+    font-size: 2rem;
+    width: 70%;
+    margin-left: 15%;
+}
+
+#msgReg {
+/*    text-align: center;*/
+/*    font-size: 80px;*/
+/*    color: royalblue;*/
+    
+}
+
+#theName{
+    text-align: center;
+    color: brown;
+    font-size: 2rem;
+    margin-top: 30px;
+}

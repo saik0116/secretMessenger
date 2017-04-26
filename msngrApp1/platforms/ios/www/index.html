@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="mainnn.css">
+    <link rel="stylesheet" href="css/ratchet.css">
+    <meta charset="UTF-8">
+    <title>Secret Messenger</title>
+</head>
+
+<body>
+  
+    <header class="bar bar-nav">
+        <h1 id="title" class = "title">Secret Messenger</h1>
+    </header>
+  
+    
+    <div id="content" class="content">
+        <div class="content-padded">
+            <form id="form">
+                <input id="user_name" type="text" placeholder="Username">
+                <input id="email" type="email" placeholder="Email">
+                    <br>
+                <a class="btn btn-primary btn-block" id="login">Login</a>
+                <a class="btn btn-positive btn-block" id="register">Register</a>
+            </form>
+        </div>
+    </div>    
+    
+    
+    
+            <!--    Message List Modal Here-->
+<!--    <div>-->
+        <div id="myModalMessageLists" class="modal">
+           <div class="content">
+                   
+                    <header class="bar bar-nav">
+<!--
+                        <button href="#myModalSendMessage" class="btn btn-link btn-nav pull-right">
+                                Send
+                            <span class="icon icon-right-nav"></span>
+                        </button>
+-->
+                        <a  href="#myModalSendMessage" class="btn btn-link btn-nav pull-right" id="ferd">
+                            Send
+                            <span class="icon icon-right-nav"></span>
+                        </a>
+<!--
+                        <a  href="#myModalSendMessage" class="icon icon-right-nav pull-right" id="ferd">
+                            Send
+                        </a>
+-->
+                        <h1 id="title" class="title">Messages</h1>
+                    </header>
+                    <div class="content" id="mylist">
+<!--                <p class="content-padded">The contents of my modal go here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>-->
+                    </div>
+                    
+            </div>
+        </div>
+<!--    </div>        -->
+     
+           
+               
+            <!--    Message Details Modal Here-->
+<!--    <div>-->
+        <div id="myModalViewMessage" class="modal">
+           <div class="content">
+                   
+                    <header class="bar bar-nav">
+                        <a  href="#myModalViewMessage" class="icon icon-left-nav pull-left" id="ferd">
+                            Back
+                        </a>
+                        <a  href="#myModalSendMessage" class="btn btn-link btn-nav pull-right" id="ferd">
+                            Send
+                            <span class="icon icon-right-nav"></span>
+                        </a>
+                        <h1 id="title" class="title">Message Details</h1> 
+                    </header>
+                    <div class="content">
+                        <form>
+                            <p id="theName"></p>
+                            <canvas id="reciever">
+<!--                                <img scr="">-->
+                            </canvas>
+                            <p id="theMessage"></p>
+                            <button class="btn btn-negative btn-block" id="deletef">DELETE</button>
+                        </form>                  
+                    </div>
+
+            </div>
+        </div>
+<!--    </div>-->
+    
+           
+                 
+            <!--    Message Send Modal Here-->
+<!--    <div>-->
+        <div id="myModalSendMessage" class="modal">
+           <div class="content">
+
+                    <header class="bar bar-nav">
+                        <a  href="#myModalSendMessage" class="icon icon-left-nav pull-left" id="ferd">
+                            Back
+                        </a>
+                        <h1 id="title" class="title">Send Messenge</h1> 
+                    </header>
+                    <div class="content">
+                        <form>
+                            <canvas id="myCanvas">
+<!--                                <img scr="">-->
+                            </canvas>
+                  
+                          	<a id="take-pic" class="btn btn-primary btn-block">
+						        <span class="icon icon-play"></span> 
+						        Take Picture
+					        </a>
+
+					<select id="listofname">
+				    </select>
+
+					<textarea id="textarea" rows="1"></textarea>
+					<a id="sndBtn" href="#myModalSendMessage" class="btn btn-primary btn-block">
+						<span class="icon icon-play"></span> Send
+					</a>
+                            
+<!--
+                            <input type="text" placeholder="Full name">
+                            <textarea rows="5"></textarea>
+                            <button class="btn btn-positive btn-block" id="send">SEND</button>
+-->
+                        </form>       
+                    </div>
+
+            </div>        
+        </div>
+<!--    </div>   -->
+        
+               <script src="cordova.js"></script>
+               <script src="js/canvas-to-blob.min.js"></script>
+        <script src="js/fetchtest.js"></script>
+<!--       <script src="js/testing.js"></script>-->
+        <script src="js/bits-1.js"></script>
+        <script src="js/ratchet.js"></script>
+</body>
+
+</html>
